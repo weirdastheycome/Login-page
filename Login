@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome!</title>
+<script>
+    let user = prompt("Enter your name", '');
+    if (user == "nithis" || user == "Nithis") {
+        let pass = prompt("Enter the password", '');
+        if (pass == "password") {
+            alert("Welcome");
+        } else if (pass === '' || pass === null) {
+            alert("Incorrect password");
+        } else {
+            alert("Incorrect password");
+        }
+    } else if (user === '' || user === null) {
+        alert("You are not authorised to login!!!");
+    }
+</script>
+</head>
+<body>
+</body>
+</html>
